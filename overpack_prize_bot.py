@@ -25,7 +25,7 @@ spin_inline_keyboard = InlineKeyboardMarkup().add(
 )
 
 request_access_keyboard = InlineKeyboardMarkup().add(
-    InlineKeyboardButton("⏩ Хочу крутить", callback_data="request_access")
+    InlineKeyboardButton("⏩ Хочу крутить колесо", callback_data="request_access")
 )
 
 # Настройки вероятности выпадения призов
